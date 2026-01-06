@@ -1,0 +1,21 @@
+- title: "Integrated information theory reveals the potential role of the posterior parietal cortex in sustaining conditioning responses in classical conditioning tasks"
+  authors: "Phi, Tien Cuong; Ishii, Shin; Kondo, Masashi; Matsuzaki, Masanori; Nakae, Ken"
+  venue: "Frontiers in Neuroscience"
+  year: 2025
+  image: "/assets/images/papers/frontiers_2025.png"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/XXXX"
+    - label: "PDF"
+      url: "/assets/papers/frontiers_2025.pdf"
+
+- title: "Kalikow decomposition for counting processes with stochastic intensity and application to simulation algorithms"
+  authors: "Phi, Tien Cuong; Löcherbach, Eva; Reynaud-Bouret, Patricia"
+  venue: "Journal of Applied Probability"
+  year: 2023
+  image: "/assets/images/papers/jap_2023.png"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/XXXX"
+    - label: "PDF"
+      url: "/assets/papers/jap_2023.pdf"
