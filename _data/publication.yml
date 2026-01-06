@@ -1,21 +1,27 @@
-- title: "Integrated information theory reveals the potential role of the posterior parietal cortex in sustaining conditioning responses in classical conditioning tasks"
-  authors: "Phi, Tien Cuong; Ishii, Shin; Kondo, Masashi; Matsuzaki, Masanori; Nakae, Ken"
-  venue: "Frontiers in Neuroscience"
+# List publications here. Images are referenced relative to /assets/images/
+# Order is not required — the include sorts by year (newest first).
+- id: pnas2025
+  title: "Glycolipid nanoparticles target the spleen and detarget the liver without charge"
+  authors: "Gentry K, Lian L, Kim H, Celik O, Jones C, Podilapu AR, Shakked A, Loughrey D, Zenhausern R, Jang B, Doan J, Rudden S, Dahlman JE"
+  venue: "PNAS"
   year: 2025
-  image: "/assets/images/papers/frontiers_2025.png"
-  links:
-    - label: "DOI"
-      url: "https://doi.org/XXXX"
-    - label: "PDF"
-      url: "/assets/papers/frontiers_2025.pdf"
+  image: "publications/pnas_thumbnail.jpg"
+  url: "https://doi.org/10.xxxx/xxxxx"
 
-- title: "Kalikow decomposition for counting processes with stochastic intensity and application to simulation algorithms"
-  authors: "Phi, Tien Cuong; Löcherbach, Eva; Reynaud-Bouret, Patricia"
-  venue: "Journal of Applied Probability"
-  year: 2023
-  image: "/assets/images/papers/jap_2023.png"
-  links:
-    - label: "DOI"
-      url: "https://doi.org/XXXX"
-    - label: "PDF"
-      url: "/assets/papers/jap_2023.pdf"
+- id: langmuir2025
+  title: "Microfluidic device type improves heart mRNA delivery in vivo"
+  authors: "Schrader Echeverri E, Kim H, Jang B, Shakked A, Park C, Baek KI, Choi L, Kang DW, Hung RC, Jeong K, Peck HE, Podilapu AR, Tiegreen KE, Santangelo PJ, Jo H, Dahlman JE"
+  venue: "Langmuir"
+  year: 2025
+  image: "publications/langmuir_thumbnail.jpg"
+  url: "https://doi.org/10.yyyy/yyyyy"
+
+# Add more entries as needed
+# Fields:
+# - id: unique id (string)
+# - title: paper title
+# - authors: author string
+# - venue: journal / conference name
+# - year: integer year
+# - image: relative path under assets/images/ (e.g. "publications/foo.jpg")
+# - url: optional link to paper / DOI
