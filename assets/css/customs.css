@@ -1,0 +1,43 @@
+.pub-card {
+  display: flex;
+  gap: 2rem;
+  margin: 2.5rem 0;
+  align-items: flex-start;
+}
+
+.pub-image img {
+  width: 220px;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+.pub-title {
+  font-size: 1.8rem;
+  font-weight: 650;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.25;
+}
+
+.pub-authors {
+  margin: 0 0 0.75rem 0;
+  opacity: 0.9;
+}
+
+.pub-venue {
+  margin: 0 0 0.9rem 0;
+}
+
+.pub-links a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .pub-card {
+    flex-direction: column;
+  }
+  .pub-image img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
