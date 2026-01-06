@@ -2,7 +2,9 @@
 
 ShortBio + LongBio (CV)
 
-## Main Interests
+## Work experience
+
+## Education
 
 ## Selected Publications
 ### Neural Data Analysis
@@ -14,9 +16,14 @@ Neuroscience Grant (2017-2018) from Acamdemic Excellence, University Côte d'Azu
 Master Thesis (17/20 Rank: 1/17)
 Bachelor Thesis (20/20 Rank: 1)
 
+## Conferences
+
 ## Collaborations
 
 ## Misc
+### Programming Skills
+### Languague 
+### Hobbies
 ---
 
 ### Category Name 1 
