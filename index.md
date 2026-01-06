@@ -3,32 +3,10 @@ I am a Project Assistant Professor at Kyoto University, Japan (2025–present), 
 A longer version and my complete CV can be found [here](./pdf/Academic_CV_PHI_2025_mod.pdf).
 
 ---
-<!-- Link the publications stylesheet (will still load if placed in the body) -->
+<!-- Link the publications stylesheet (move to head/_includes if you prefer site-wide) -->
 <link rel="stylesheet" href="/assets/css/publications.css">
 
-## Publications
-<section class="publications">
-  <h2 class="publications-heading">Publications</h2>
-
-  <!-- Publication 1 -->
-  <article class="pub-row">
-    <div class="pub-thumb">
-      <!-- Replace with a thumbnail image (stored in assets/images/publications/) -->
-      <img src="/assets/images/publications/pnas_thumbnail.jpg" alt="PNAS paper thumbnail">
-    </div>
-
-    <div class="pub-meta">
-      <h3 class="pub-title">Glycolipid nanoparticles target the spleen and detarget the liver without charge</h3>
-      <div class="pub-authors">Gentry K, Lian L, Kim H, Celik O, Jones C, Podilapu AR, Shakked A, Loughrey D, Zenhausern R, Jang B, Doan J, Rudden S, Dahlman JE</div>
-      <div class="pub-journal">PNAS, 2025</div>
-      <!-- optional: DOI / link -->
-      <div class="pub-links"><a href="https://doi.org/10.xxxx/xxxxx" class="pub-link">Read paper</a></div>
-    </div>
-  </article>
-
-
-  <!-- Add more <article class="pub-row"> ... </article> blocks for additional publications -->
-</section>
+{% include publications.html %}
 
 ---
 ## Selected Publications
