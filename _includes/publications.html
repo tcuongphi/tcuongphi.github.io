@@ -1,0 +1,21 @@
+<section class="publications">
+  <h2 class="publications-heading">Publications</h2>
+
+  {%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+  {%- for pub in pubs -%}
+  <article class="pub-row">
+    <div class="pub-thumb">
+      <img src="{{ '/assets/images/' | append: pub.image }}" alt="{{ pub.title | escape }}">
+    </div>
+
+    <div class="pub-meta">
+      <h3 class="pub-title">{{ pub.title }}</h3>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-journal">{{ pub.venue }}, {{ pub.year }}</div>
+      {%- if pub.url and pub.url != "" -%}
+      <div class="pub-links"><a href="{{ pub.url }}" class="pub-link" target="_blank" rel="noopener">Read paper</a></div>
+      {%- endif -%}
+    </div>
+  </article>
+  {%- endfor -%}
+</section>
