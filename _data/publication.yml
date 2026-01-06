@@ -1,20 +1,12 @@
 # List publications here. Images are referenced relative to /assets/images/
 # Order is not required — the include sorts by year (newest first).
 - id: pnas2025
-  title: "Glycolipid nanoparticles target the spleen and detarget the liver without charge"
+  title: "Integrated information theory reveals the potential role of the posterior parietal cortex in sustaining conditioning responses in classical conditioning tasks"
   authors: "Gentry K, Lian L, Kim H, Celik O, Jones C, Podilapu AR, Shakked A, Loughrey D, Zenhausern R, Jang B, Doan J, Rudden S, Dahlman JE"
-  venue: "PNAS"
+  venue: "Frontiers in Neuroscience"
   year: 2025
-  image: "publications/pnas_thumbnail.jpg"
-  url: "https://doi.org/10.xxxx/xxxxx"
-
-- id: langmuir2025
-  title: "Microfluidic device type improves heart mRNA delivery in vivo"
-  authors: "Schrader Echeverri E, Kim H, Jang B, Shakked A, Park C, Baek KI, Choi L, Kang DW, Hung RC, Jeong K, Peck HE, Podilapu AR, Tiegreen KE, Santangelo PJ, Jo H, Dahlman JE"
-  venue: "Langmuir"
-  year: 2025
-  image: "publications/langmuir_thumbnail.jpg"
-  url: "https://doi.org/10.yyyy/yyyyy"
+  image: "publications/fnins-19-1512724.jpg"
+  url: "https://doi.org/10.3389/fnins.2025.1512724"
 
 # Add more entries as needed
 # Fields:
