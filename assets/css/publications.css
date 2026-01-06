@@ -1,0 +1,109 @@
+/* Publications section styles
+   - Save as assets/css/publications.css
+   - Thumbnails: assets/images/publications/*.jpg (or .png)
+*/
+
+.publications {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+  color: #f2f5f6; /* light text */
+}
+
+/* Heading */
+.publications-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+/* Each publication row */
+.pub-row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 64px;
+}
+
+/* Thumbnail */
+.pub-thumb {
+  flex: 0 0 240px;
+}
+.pub-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+  border: 6px solid rgba(255,255,255,0.02);
+  background: #fff;
+  display: block;
+}
+
+/* Metadata column */
+.pub-meta {
+  flex: 1 1 auto;
+  min-width: 0; /* allow text-overflow inside flex container */
+}
+
+/* Title */
+.pub-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 12px 0;
+  color: #ffffff;
+  line-height: 1.08;
+}
+
+/* Authors and journal */
+.pub-authors {
+  color: #d7dbe0;
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pub-journal {
+  font-weight: 700;
+  margin-top: 6px;
+  color: #ffffff;
+}
+
+/* Link (optional) */
+.pub-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #cfe8ff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(207,232,255,0.14);
+  padding-bottom: 2px;
+}
+
+/* Smaller screens: stack vertically */
+@media (max-width: 880px) {
+  .pub-row {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .pub-thumb {
+    flex: 0 0 auto;
+    width: 160px;
+    margin: 0 auto;
+  }
+  .pub-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .pub-authors, .pub-journal {
+    text-align: center;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .pub-thumb { width: 140px; }
+  .publications { padding: 16px; }
+  .publications-heading { font-size: 26px; }
+}
