@@ -1,5 +1,22 @@
-## Portfolio
+## Bio
 
+ShortBio + LongBio (CV)
+
+## Main Interests
+
+## Selected Publications
+### Neural Data Analysis
+### Simulation Algorithms
+
+## Achievements
+
+Neuroscience Grant (2017-2018) from Acamdemic Excellence, University Côte d'Azur (former: University of Nice). 
+Master Thesis (17/20 Rank: 1/17)
+Bachelor Thesis (20/20 Rank: 1)
+
+## Collaborations
+
+## Misc
 ---
 
 ### Category Name 1 
