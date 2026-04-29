@@ -11,26 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mathematics, University Côte d'Azur, 2022 (supervised by Patricia Reynaud-Bouret and Eva Löcherbach)
+* M.S. in Mathematics, University Côte d'Azur, 2018 (supervised by Patricia Reynaud-Bouret)
+* B.S. in Mathematics, Hanoi National University of Education, 2016
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* [2023-2025]: Postdoc Researcher
+  * Kyoto University, Japan
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019-2022: University teaching/research assistant
+  * University Côte d'Azur, France
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* [2017-2020]: Researcher
+  * Institute of Mathematics Hanoi, Vietnam
+
   
 Skills
 ======
@@ -59,6 +54,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
