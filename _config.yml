@@ -20,7 +20,7 @@ repository               : "tcuongphi/tcuongphi.github.io"
 
 # SEO & search engine settings
 og_image                 : "profile.png"  # image used for link previews on Google/social media
-google_site_verification :                # paste the code from Google Search Console here to verify ownership
+google_site_verification : "6q2mWQEASxSENQwLQeQedzsNdHFh7IcQolp-eq8BJPU"  # verifies ownership in Google Search Console
 social:                                   # powers the structured data (schema.org Person) that helps Google link this site to you
   type                   : "Person"
   name                   : "Tien Cuong Phi"
