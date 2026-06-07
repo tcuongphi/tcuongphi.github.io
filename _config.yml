@@ -203,6 +203,14 @@ exclude:
   - README
   - tmp
   - vendor
+  - markdown_generator
+  - scripts
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
+  - _config_docker.yml
+  - docker-compose.yaml
+  - CONTRIBUTING.md
 keep_files:
   - .git
   - .svn
